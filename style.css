@@ -1,0 +1,17 @@
+
+
+body {
+    background-color: lightgray
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.header h1 {
+    font-size: 46px;
+    padding: 2%;
+}
+
