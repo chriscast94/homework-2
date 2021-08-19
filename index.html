@@ -8,43 +8,84 @@
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
 </head>
+
+
 <body>
-
     <header>
+        <div class="overlay">
+        <img src="Headshot.jpg" class="profile"  style="background-image";>
         <h1>Christian's Portfolio</h1>
-        <nav class="navbar">
-            <menu>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href= "#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </menu>
-        </nav>
-    </header>
+            <nav class="navbar">
+                <menu>
+                <!-- Link to in page sections -->
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href= "#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </menu>
+            </nav>
+        </div>
+        </header>
 
 
+<main class="content">
     <!-- Quick descrption of who I am and include resume? -->
-<section>
-   <h2>About Me</h2>
+<section id="about-me" class="about-me">
+   <h2 class="head">About Me</h2>
+   <p>
+       Welcome to my portfolio! My name is Christian Castillo and I am happy to have you here. 
+       I am a developer, writer, and editor with a varied background.
+       My adaptability and focus allow me to provide quality content in a timely manner.
+       Don't take my word for it: please take a look around!
+   </p>
 </section>
 
-<!-- Links to my works -->
-<section>
+<!-- Links to my works; create 3 boxed sections -->
+<section id="work" class="work">
     <h2>Work</h2>
+    <!-- Refreactoring homework -->
+        <section id="refractoring" class="refractoring">
+            <h3 class="header">Code Refractoring</h3>
+            <ul>
+                <li>
+                    <a href="https://chriscast94.github.io/homework-1/" target=_blank> <img id="horieson" src="Horiseon-live-1.JPG" height="200"></a>
+                </li>
+                <li>
+                    Sample Work 2
+                </li>
+                <li>
+                    Sample Work 3
+                </li>
+            </ul>
+        </section>
 </section>
 
 <!-- Contact info -->
-<section>
-    <h2>Contact Info</h2>
+<section id="contact" class="contact">
+    <h2 class="header">Contact Info</h2>
+    <ul>
+        <li>
+            <a href="mailto:chriscast94@outlook.com">Email</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/christian-castillo-01304/" target=_blank>LinkedIn</a>
+        </li>
+        <li>
+            <a href="https://github.com/chriscast94" target=_blank>Github</a>
+        </li>
+        <li>
+            <a href="https://chriscast94.journoportfolio.com/">Copywriting</a>
+        </li>
+    </ul>
 </section>
-    
-<footer>
-    Thanks for Stopping By ❤️
-</footer>
+</main>
+    <footer>
+        Thanks for Stopping By ❤️
+    </footer>
 </body>
 </html>
