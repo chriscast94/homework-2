@@ -108,7 +108,18 @@ section {
     
 }
 
-h2 {
+#refractoring {
+    float:left;
+
+}
+
+#portfolio {
+    float: right;
+
+}
+
+
+.head {
     font-family: fantasy;
     font-size: 25px;
     color:violet;
@@ -123,10 +134,10 @@ h3 {
     font-family: monospace;
 }
 
-.refractoring {
+/* .refractoring {
     margin-left: -5px;
 
-}
+} */
 
 .horiseon {
     min-width: auto;
