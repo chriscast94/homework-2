@@ -3,24 +3,23 @@
 
 *{
     box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
     padding: 0;
     margin: 0;
 }
 
 title {
-
+    display: none;
 }
 
 .profile {
-    width: 140px;
-    height: 140px;
-    background-position: center;
-    background-size: cover;
+    width: 275px;
+    height: auto;
     margin: 0 auto;
     border-radius: 50%;
     margin-bottom: 10px;
-    margin-top: -50px;
-    
+    margin-top: 50px;   
 }
 
 
@@ -29,33 +28,61 @@ body {
 }
 
 header {
-    display: flex;
-    background-color: aqua;
     justify-content: space-between;
     list-style-type: none;
     text-align: center;
 
 }
-
-header .overlay {
-    padding: 15% 10%;
+header .hero {
+    /* top: 0; */
+    background-image: url("../homework-2/background.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    width: 100%;
+    /* position: absolute;
 }
+
+/* header .background {
+    top: 0;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+    background-position: center; */
+}
+
+/* .hero .background {
+    top: 0;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+    background-position: center;
+} */
+
+/* header .hero {
+    padding: 15% 10%;
+} */
 
 header h1 {
     display: inline-block;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
     font-size: 46px; 
+    text-decoration: underline;
+    color: white;
 } 
 
 
 nav a:hover {
 cursor: pointer;
 color:blueviolet;
-
 }
 
-.navbar li {
-    float: right;
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar menu li {
+    display: inline-block;
     list-style-type: none;
     font-size: 20px;
     margin-left: 25px;
@@ -76,35 +103,52 @@ section {
 
 }
 
-.about-me h2 {
-
+.sample-work {
+    display:inline-block;
+    
 }
 
-.work {
-    display: flex
-}
-
-.work h2 {
+h2 {
+    font-family: fantasy;
+    font-size: 25px;
+    color:violet;
+    margin-bottom: 10px;
     
 }
 
 h3 {
-
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
 }
 
 .refractoring {
+    margin-left: -5px;
+
+}
+
+.horiseon {
+    min-width: auto;
+    /* max-width: 350px; */
+    min-height: auto;
 
 }
 
 
+/* @media screen and (min-width: 768px) {
+    #horiseon {width: 300px; float: left;}
+} */
 
-.sample-work-2 {
+
+
+/* .sample-work-2 {
 
 }
 
 .sample-work-3 {
 
-}
+} */
 
 .contact {
 
@@ -114,6 +158,5 @@ footer {
 
 }
 
-/* @media screen and (max-width: 768px)
-    #horeison */
+
 
