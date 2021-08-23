@@ -3,8 +3,6 @@
 
 *{
     box-sizing:border-box;
-    /* display: flex; */
-    /* flex-direction: column; */
     padding: 0;
     margin: 0;
 }
@@ -34,7 +32,6 @@ header {
 
 }
 header .hero {
-    /* top: 0; */
     background-image: url("../homework-2/background.jpg");
     background-size: cover;
     background-position: center;
@@ -42,28 +39,8 @@ header .hero {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* position: absolute;
 }
 
-/* header .background {
-    top: 0;
-    background-size: cover;
-    width: 100%;
-    min-height: 100%;
-    background-position: center; */
-}
-
-/* .hero .background {
-    top: 0;
-    background-size: cover;
-    width: 100%;
-    min-height: 100%;
-    background-position: center;
-} */
-
-/* header .hero {
-    padding: 15% 10%;
-} */
 
 header h1 {
     display: inline-block;
@@ -97,14 +74,6 @@ section {
 }
 
 
-.content {
-
-}
-
-.about-me {
-
-}
-
 .head {
     font-family: fantasy;
     font-size: 25px;
@@ -125,6 +94,12 @@ section {
 
 }
 
+#refractoring a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
 #portfolio {
     width: 50%;
 
@@ -143,24 +118,39 @@ section {
     height: 500px;
 }
 
-span {
-    position:fixed; 
+/* .sample1 h3 {
+    align-items: center;
+} */
+
+/* #link1 {
+    position:absolute; 
     width:100%;
     height:100%;
     top:0;
     left: 0;
     z-index: 1;
-}
+} */
+
+
 
 .sample2 {
-    background-image: url("../homework-2/Horiseon-live-1.JPG");
+    background-image: url("../homework-2/pumpkin.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     height: 250px;
     width: 90%;
     margin: 10px;
-    /* margin-bottom: 15px; */
+}
+
+#link2{
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+
 }
 
 .sample3{
@@ -200,33 +190,13 @@ h3 {
 }
 
 
-
-
-
-/* .horiseon {
-    min-width: auto;
-    /* max-width: 350px; */
-    /* min-height: auto; */
-
-/* } */
-
-
-/* @media screen and (min-width: 768px) {
-    #horiseon {width: 300px; float: left;}
-} */
-
 .finder {
-    /* align-items: center; */
     display: flex;
     justify-content: space-evenly;
     font-size: 20px;
     font-family: system-ui;
 }
 
-
-.contact {
-
-}
 
 footer {
     font-size: 15px;
