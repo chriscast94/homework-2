@@ -121,6 +121,7 @@ section {
 
 #refractoring {
     width: 100%;
+   
 
 }
 
@@ -140,6 +141,15 @@ section {
     background-position: top;
     width: 100%;
     height: 500px;
+}
+
+span {
+    position:fixed; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
 }
 
 .sample2 {
@@ -186,7 +196,7 @@ h3 {
     margin-bottom: 15px;
     font-size: 20px;
     font-family: monospace;
-    justify-content: ;
+    
 }
 
 
