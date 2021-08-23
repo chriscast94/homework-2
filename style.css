@@ -22,8 +22,7 @@ title {
 
 
 body {
-    background-color: lightgray
-}
+    background-color: #8a9e71;}
 
 header {
     justify-content: space-between;
@@ -44,8 +43,8 @@ header .hero {
 
 header h1 {
     display: inline-block;
-    font-family: monospace;
-    font-size: 46px; 
+    font-family: times;
+    font-size: 75px;
     text-decoration: underline;
     color: white;
 } 
@@ -73,14 +72,19 @@ section {
     margin: 25px;
 }
 
+.about-me p {
+    text-align: center;
+}
 
 .head {
-    font-family: fantasy;
+    font-family: inherit;
     font-size: 25px;
-    color:violet;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
     margin-bottom: 10px;
     justify-content: center;
-    text-align: center;    
+    text-align: center;  
 }
 
 .sample-work {
