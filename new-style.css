@@ -1,0 +1,234 @@
+/* Needs: responsive layout
+         */
+
+         *{
+            box-sizing:border-box;
+            padding: 0;
+            margin: 0;
+        }
+        
+        title {
+            display: none;
+        }
+        
+        .profile {
+            width: 275px;
+            height: auto;
+            margin: 0 auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            margin-top: 50px;   
+        }
+        
+        
+        body {
+            background-color: #3639f4;}
+        
+        header {
+            justify-content: space-between;
+            list-style-type: none;
+            text-align: center;
+        
+        }
+        header .hero {
+            background-image: url("assets/background.jpg");
+            background-size: cover;
+            background-position: center;
+            min-height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        
+        header h1 {
+            display: inline-block;
+            font-family: times;
+            font-size: 75px;
+            text-decoration: underline;
+            color: white;
+        } 
+        
+        nav a:link, a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        nav a:hover {
+        cursor: pointer;
+        color:#8a9e71;
+        }
+        
+        .navbar {
+            margin-bottom: 20px;
+        }
+        
+        .navbar menu li {
+            display: inline-block;
+            list-style-type: none;
+            font-size: 20px;
+            margin-left: 25px;
+            margin-right: 10px;
+            padding-top: 15px;
+        }
+        
+        section {
+            margin: 25px;
+        }
+        
+        .about-me p {
+            text-align: center;
+        }
+        
+        .head {
+            font-family: inherit;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: bold;
+            color: black;
+            margin-bottom: 10px;
+            justify-content: center;
+            text-align: center;  
+        }
+        
+        .sample-work {
+            flex-wrap: wrap;
+            
+        }
+        
+        #example1 {
+            width: 100%;
+           
+        
+        }
+        
+        #refractoring a {
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+        
+        #portfolio {
+            width: 50%;
+        
+        }
+        
+        #new {
+            width: 50%;
+        }
+        
+        .sample1 {
+            background-image: url("assets/project-1.JPG");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;
+            width: 100%;
+            height: 500px;
+        }
+        
+        /* .sample1 h3 {
+            align-items: center;
+        } */
+        
+        /* #link1 {
+            position:absolute; 
+            width:100%;
+            height:100%;
+            top:0;
+            left: 0;
+            z-index: 1;
+        } */
+        
+        
+        
+        .sample2 {
+            background-image: url("assets/scheduler.JPG");
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center;
+            height: 250px;
+            width: 90%;
+            margin: 10px;
+        }
+        
+        /* #link2{
+            position:absolute; 
+            width:100%;
+            height:100%;
+            top:0;
+            left: 0;
+            z-index: 1;
+        
+        } */
+        
+        .sample3{
+            background-image: url("assets/pw-generator.JPG");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+            width: 90%;
+            margin: 10px;
+        }
+        
+        
+        .subs {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .subs {
+              flex-direction: column;
+            }
+          }
+        
+          @media screen and (max-width: 992px) {
+            .subs {
+              flex: 100%;
+            }
+          }
+        
+          
+        h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+            font-family: monospace;
+            display: flex;
+            flex-direction: column-reverse;
+            color: white;
+        }
+        
+        
+        .finder {
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 20px;
+            font-family: system-ui;
+            list-style-type: none;
+
+        }
+
+        .finder a:link, a:visited {
+            background-color: #f44336;
+            color: white;
+            border-radius: 25px;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: initial;
+        }
+        
+        
+        footer {
+            font-size: 15px;
+        }
+        
+        
+        
+        
